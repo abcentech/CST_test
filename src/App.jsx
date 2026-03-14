@@ -27,11 +27,20 @@ function App() {
   }, [step, isAdminLoggedIn]);
 
   const fetchSubmissions = async () => {
-    const { data, error } = await supabase
-      .from('submissions')
-      .select('*')
-      .order('start_time', { ascending: false });
-    if (data) setAllSubmissions(data);
+    try {
+      const { data, error } = await supabase
+        .from('submissions')
+        .select('*')
+        .order('start_time', { ascending: false });
+      
+      if (error) {
+        console.error('Supabase fetch error:', error);
+        alert('Database error: ' + error.message);
+      }
+      if (data) setAllSubmissions(data);
+    } catch (err) {
+      console.error('Unexpected error fetching submissions:', err);
+    }
   };
 
   useEffect(() => {
