@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import questionsData from './questions.json';
+import { supabase } from './supabaseClient';
 import './App.css';
 
 function App() {
@@ -9,10 +10,29 @@ function App() {
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(1000);
   const [theme, setTheme] = useState('dark');
+  const [submissionId, setSubmissionId] = useState(null);
+  const [adminPassword, setAdminPassword] = useState('');
+  const [allSubmissions, setAllSubmissions] = useState([]);
+  const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
+
+  // Fetch data for admin
+  useEffect(() => {
+    if (step === 'admin' && isAdminLoggedIn) {
+      fetchSubmissions();
+    }
+  }, [step, isAdminLoggedIn]);
+
+  const fetchSubmissions = async () => {
+    const { data, error } = await supabase
+      .from('submissions')
+      .select('*')
+      .order('start_time', { ascending: false });
+    if (data) setAllSubmissions(data);
+  };
 
   useEffect(() => {
     let timer;
@@ -26,12 +46,33 @@ function App() {
     return () => clearInterval(timer);
   }, [step, timeLeft]);
 
-  const handleStart = (e) => {
+  const handleStart = async (e) => {
     e.preventDefault();
     if (userInfo.name && userInfo.dob && userInfo.yearJoined) {
       window.scrollTo(0, 0);
       setStep('test');
       setTimeLeft(1000);
+
+      // Log start to Supabase
+      try {
+        const { data, error } = await supabase
+          .from('submissions')
+          .insert([
+            { 
+              candidate_name: userInfo.name, 
+              dob: userInfo.dob, 
+              year_joined: parseInt(userInfo.yearJoined),
+              status: 'started'
+            }
+          ])
+          .select();
+        
+        if (data && data[0]) {
+          setSubmissionId(data[0].id);
+        }
+      } catch (err) {
+        console.error('Failed to log start:', err);
+      }
     }
   };
 
@@ -47,12 +88,32 @@ function App() {
     return s;
   };
 
-  const handleSubmit = (isAuto = false) => {
+  const handleSubmit = async (isAuto = false) => {
     if (!isAuto && Object.keys(answers).length < questionsData.length) {
       const confirmSubmit = window.confirm(`You have only answered ${Object.keys(answers).length} out of ${questionsData.length} questions. Are you sure you want to submit?`);
       if (!confirmSubmit) return;
     }
-    setScore(calculateScore());
+    
+    const finalScore = calculateScore();
+    setScore(finalScore);
+    
+    // Log submission to Supabase
+    if (submissionId) {
+      try {
+        await supabase
+          .from('submissions')
+          .update({ 
+            status: isAuto ? 'timed_out' : 'completed',
+            answers: answers,
+            score: finalScore,
+            end_time: new Date().toISOString()
+          })
+          .eq('id', submissionId);
+      } catch (err) {
+        console.error('Failed to update submission:', err);
+      }
+    }
+
     window.scrollTo(0, 0);
     setStep('result');
   };
@@ -116,6 +177,80 @@ function App() {
           </div>
           <button type="submit" className="btn primary-btn">Start Assessment</button>
         </form>
+        <div className="admin-access">
+          <button onClick={() => setStep('admin')} className="link-btn">Admin Portal</button>
+        </div>
+      </div>
+    );
+  }
+
+  if (step === 'admin') {
+    if (!isAdminLoggedIn) {
+      return (
+        <div className="container form-container glass">
+          <h2>Admin Access</h2>
+          <div className="user-form">
+            <input 
+              type="password" 
+              placeholder="Enter Admin Password" 
+              value={adminPassword}
+              onChange={(e) => setAdminPassword(e.target.value)}
+              className="form-group"
+            />
+            <button 
+              className="btn primary-btn"
+              onClick={() => {
+                if (adminPassword === 'кин2026') { // Simple preset password
+                  setIsAdminLoggedIn(true);
+                } else {
+                  alert('Incorrect Password');
+                }
+              }}
+            >Login</button>
+            <button onClick={() => setStep('form')} className="btn secondary-btn">Back</button>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className="container admin-container glass">
+        <header className="admin-header">
+          <h1>Admin Dashboard</h1>
+          <button onClick={() => setStep('form')} className="btn secondary-btn">Exit Admin</button>
+        </header>
+
+        <div className="table-responsive">
+          <table className="admin-table">
+            <thead>
+              <tr>
+                <th>Candidate</th>
+                <th>Score</th>
+                <th>Status</th>
+                <th>Time Logged In (Start)</th>
+                <th>Answers</th>
+              </tr>
+            </thead>
+            <tbody>
+              {allSubmissions.map(sub => (
+                <tr key={sub.id}>
+                  <td>
+                    <strong>{sub.candidate_name}</strong><br/>
+                    <small>DOB: {sub.dob} | Joined: {sub.year_joined}</small>
+                  </td>
+                  <td>{sub.score !== null ? `${sub.score}/100` : '-'}</td>
+                  <td><span className={`status-pill ${sub.status}`}>{sub.status}</span></td>
+                  <td>{new Date(sub.start_time).toLocaleString()}</td>
+                  <td>
+                    {sub.answers ? (
+                      <button className="small-btn" onClick={() => alert(JSON.stringify(sub.answers, null, 2))}>View JSON</button>
+                    ) : 'N/A'}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }
