@@ -7,7 +7,8 @@
       "B": "Raising gods, building nations",
       "C": "Community feeding and literacy"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
       "B": "318",
       "C": "470"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
       "B": "300",
       "C": "32,000"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
       "B": "360",
       "C": "469/470"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
       "B": "To make a difference",
       "C": "Investing in real estate"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
       "B": "5 Million",
       "C": "15 Million"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
       "B": "1.19 Million",
       "C": "1 Million"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Vision & Values"
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
       "B": "2018",
       "C": "2020"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
       "B": "1.19 Million",
       "C": "5 Million"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
       "B": "7 to 17 years (+/- 2)",
       "C": "18 to 30 years"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
       "B": "13",
       "C": "18"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 12,
@@ -117,7 +128,8 @@
       "B": "13",
       "C": "18"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 13,
@@ -127,7 +139,8 @@
       "B": "7:59 PM",
       "C": "8:20 PM"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 14,
@@ -137,7 +150,8 @@
       "B": "9:15 PM",
       "C": "10:00 PM"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 15,
@@ -147,7 +161,8 @@
       "B": "9:30 PM",
       "C": "12:00 AM"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 16,
@@ -157,7 +172,8 @@
       "B": "15 minutes",
       "C": "30 minutes"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 17,
@@ -167,7 +183,8 @@
       "B": "ESV",
       "C": "KJV"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 18,
@@ -177,7 +194,8 @@
       "B": "Praying in the Holy Spirit",
       "C": "Power in the Home"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 19,
@@ -187,7 +205,8 @@
       "B": "150",
       "C": "176"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 20,
@@ -197,7 +216,8 @@
       "B": "7 days",
       "C": "10 days"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 21,
@@ -207,7 +227,8 @@
       "B": "The Nation",
       "C": "Health and healing"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 22,
@@ -217,7 +238,8 @@
       "B": "Time, Energy, Resources, Money",
       "C": "Prayer, Fasting, Word, Giving"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 23,
@@ -227,7 +249,8 @@
       "B": "Around the person, their house, and all they have",
       "C": "Only around the church"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 24,
@@ -237,7 +260,8 @@
       "B": "5,000",
       "C": "10,000"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 25,
@@ -247,7 +271,8 @@
       "B": "Hearing God",
       "C": "Stars & Signs (Global Impact)"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 26,
@@ -257,7 +282,8 @@
       "B": "A physical Bible",
       "C": "A notebook"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 27,
@@ -267,7 +293,8 @@
       "B": "Mathematics and English",
       "C": "Science and Geography"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 28,
@@ -277,7 +304,8 @@
       "B": "1 month",
       "C": "1 week"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "AI & Future"
   },
   {
     "id": 29,
@@ -287,7 +315,8 @@
       "B": "40%",
       "C": "70%"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 30,
@@ -297,7 +326,8 @@
       "B": "5 years",
       "C": "10 years"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 31,
@@ -307,7 +337,8 @@
       "B": "5 hours",
       "C": "9 hours"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 32,
@@ -317,7 +348,8 @@
       "B": "Esteem, Emotional Intelligence, Expertise, Excellence",
       "C": "Faith, Prayer, Word, Service"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 33,
@@ -327,7 +359,8 @@
       "B": "July 16, 2027",
       "C": "December 25, 2025"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 34,
@@ -337,7 +370,8 @@
       "B": "470",
       "C": "774"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Vision & Values"
   },
   {
     "id": 35,
@@ -347,7 +381,8 @@
       "B": "36",
       "C": "774"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 36,
@@ -357,7 +392,8 @@
       "B": "Psalm 82:6",
       "C": "John 3:16"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 37,
@@ -367,7 +403,8 @@
       "B": "24",
       "C": "26"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 38,
@@ -377,7 +414,8 @@
       "B": "Affirmation/Declaration",
       "C": "Bible Reading"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 39,
@@ -387,7 +425,8 @@
       "B": "Friday",
       "C": "Monday"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 40,
@@ -397,7 +436,8 @@
       "B": "2017",
       "C": "2022"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 41,
@@ -407,7 +447,8 @@
       "B": "5 years old",
       "C": "10 years old"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "AI & Future"
   },
   {
     "id": 42,
@@ -417,7 +458,8 @@
       "B": "3 to 5 years",
       "C": "7 to 10 years"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 43,
@@ -427,7 +469,8 @@
       "B": "4 decades",
       "C": "7 decades"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 44,
@@ -437,7 +480,8 @@
       "B": "Administrative hub/spoke",
       "C": "A sports complex"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 45,
@@ -447,7 +491,8 @@
       "B": "The central physical structure",
       "C": "A library"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 46,
@@ -457,7 +502,8 @@
       "B": "Steps",
       "C": "Drills"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 47,
@@ -467,7 +513,8 @@
       "B": "Steps",
       "C": "Drills"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 48,
@@ -477,7 +524,8 @@
       "B": "Steps",
       "C": "Drills"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Financial & Professional"
   },
   {
     "id": 49,
@@ -487,7 +535,8 @@
       "B": "Bible Basics/Selection",
       "C": "Global Politics"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 50,
@@ -497,7 +546,8 @@
       "B": "Hearing the voice of God",
       "C": "A high-paying job"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 51,
@@ -507,7 +557,8 @@
       "B": "50",
       "C": "100"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "AI & Future"
   },
   {
     "id": 52,
@@ -517,7 +568,8 @@
       "B": "Service/Nation building",
       "C": "Bible basics"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "AI & Future"
   },
   {
     "id": 53,
@@ -527,7 +579,8 @@
       "B": "300 days",
       "C": "365 days"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 54,
@@ -537,7 +590,8 @@
       "B": "8:20 PM",
       "C": "9:00 PM"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 55,
@@ -547,7 +601,8 @@
       "B": "5 minutes",
       "C": "10 minutes"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 56,
@@ -557,7 +612,8 @@
       "B": "8 minutes",
       "C": "12 minutes"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 57,
@@ -567,7 +623,8 @@
       "B": "5 minutes",
       "C": "10 minutes"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 58,
@@ -577,7 +634,8 @@
       "B": "6 minutes",
       "C": "9 minutes"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 59,
@@ -587,7 +645,8 @@
       "B": "A Covenant Servant",
       "C": "A parent"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 60,
@@ -597,7 +656,8 @@
       "B": "To take notes",
       "C": "To sleep"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 61,
@@ -607,7 +667,8 @@
       "B": "Nobody sustains life by salary alone",
       "C": "It should be saved in a bank"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 62,
@@ -617,7 +678,8 @@
       "B": "In the things of God",
       "C": "In real estate"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 63,
@@ -627,7 +689,8 @@
       "B": "10 years",
       "C": "20 years"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 64,
@@ -637,7 +700,8 @@
       "B": "Jack Dorsey",
       "C": "Elon Musk"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "AI & Future"
   },
   {
     "id": 65,
@@ -647,7 +711,8 @@
       "B": "Decisions, Directions, Destiny",
       "C": "Friends, Family, Neighbors"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 66,
@@ -657,7 +722,8 @@
       "B": "Emotional discipline",
       "C": "A math formula"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 67,
@@ -667,7 +733,8 @@
       "B": "DNA in God and earthly purpose",
       "C": "Superiority"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 68,
@@ -677,7 +744,8 @@
       "B": "120",
       "C": "318"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 69,
@@ -687,7 +755,8 @@
       "B": "Joshua",
       "C": "David"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 70,
@@ -697,7 +766,8 @@
       "B": "David",
       "C": "Samuel"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 71,
@@ -707,7 +777,8 @@
       "B": "Joshua and Caleb",
       "C": "Peter and Paul"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 72,
@@ -717,7 +788,8 @@
       "B": "A god",
       "C": "A shepherd"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 73,
@@ -727,7 +799,8 @@
       "B": "40 years",
       "C": "70 years"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 74,
@@ -737,7 +810,8 @@
       "B": "Live an Inspiration",
       "C": "Building Nations"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 75,
@@ -747,7 +821,8 @@
       "B": "Building cities",
       "C": "Community service"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Vision & Values"
   },
   {
     "id": 76,
@@ -757,7 +832,8 @@
       "B": "Raising gods, building nations",
       "C": "Global literacy"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 77,
@@ -767,7 +843,8 @@
       "B": "109 Senators, 360 House",
       "C": "200 Senators, 269 House"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 78,
@@ -777,7 +854,8 @@
       "B": "Mr. Tony",
       "C": "Tony / How are you"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 79,
@@ -787,7 +865,8 @@
       "B": "Mr. Tony",
       "C": "Tony / How are you"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 80,
@@ -797,7 +876,8 @@
       "B": "Mr. Tony",
       "C": "Tony / How are you"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Financial & Professional"
   },
   {
     "id": 81,
@@ -807,7 +887,8 @@
       "B": "Covenant University",
       "C": "University of Ibadan"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 82,
@@ -817,7 +898,8 @@
       "B": "Bat-Mitzvah",
       "C": "None (it doesn't exist)"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 83,
@@ -827,7 +909,8 @@
       "B": "17-19",
       "C": "25-30"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   },
   {
     "id": 84,
@@ -837,7 +920,8 @@
       "B": "44 weeks",
       "C": "52 weeks"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 85,
@@ -847,7 +931,8 @@
       "B": "February",
       "C": "March"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 86,
@@ -857,7 +942,8 @@
       "B": "November",
       "C": "December"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Financial & Professional"
   },
   {
     "id": 87,
@@ -867,7 +953,8 @@
       "B": "Every 3 hours",
       "C": "Once a week"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 88,
@@ -877,7 +964,8 @@
       "B": "26",
       "C": "50"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 89,
@@ -887,7 +975,8 @@
       "B": "500 hours",
       "C": "1,000 hours"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 90,
@@ -897,7 +986,8 @@
       "B": "Deuteronomy 8:18",
       "C": "Matthew 6:33"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 91,
@@ -907,7 +997,8 @@
       "B": "Hardest subject",
       "C": "Optional subject"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Financial & Professional"
   },
   {
     "id": 92,
@@ -917,7 +1008,8 @@
       "B": "5 people",
       "C": "10 people"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "AI & Future"
   },
   {
     "id": 93,
@@ -927,7 +1019,8 @@
       "B": "Bibles",
       "C": "Stones"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Biblical Foundations"
   },
   {
     "id": 94,
@@ -937,7 +1030,8 @@
       "B": "Princess",
       "C": "GDX"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 95,
@@ -947,7 +1041,8 @@
       "B": "88",
       "C": "176"
     },
-    "answer": "A"
+    "answer": "A",
+    "category": "Biblical Foundations"
   },
   {
     "id": 96,
@@ -957,7 +1052,8 @@
       "B": "To combat mathematics degradation",
       "C": "To learn Greek"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Financial & Professional"
   },
   {
     "id": 97,
@@ -967,7 +1063,8 @@
       "B": "Health",
       "C": "Wealth"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 98,
@@ -977,7 +1074,8 @@
       "B": "1 year",
       "C": "2 to 3 years"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 99,
@@ -987,7 +1085,8 @@
       "B": "3",
       "C": "5"
     },
-    "answer": "C"
+    "answer": "C",
+    "category": "Biblical Foundations"
   },
   {
     "id": 100,
@@ -997,6 +1096,7 @@
       "B": "Spirit, Skills, Service",
       "C": "Prayer, Fasting, Word"
     },
-    "answer": "B"
+    "answer": "B",
+    "category": "Vision & Values"
   }
 ]
