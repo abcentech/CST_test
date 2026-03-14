@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "text": "What is the current core vision of KidsInspiring Nation?",
+    "options": {
+      "A": "Raising children for global jobs",
+      "B": "Raising gods, building nations",
+      "C": "Community feeding and literacy"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "text": "How many trained servants did Abraham have in his house to defeat kings?",
+    "options": {
+      "A": "300",
+      "B": "318",
+      "C": "470"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "text": "How many men were in Gideon’s final army used to save Israel?",
+    "options": {
+      "A": "10,000",
+      "B": "300",
+      "C": "32,000"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "text": "How many members total steer the laws of Nigeria (Senate and House of Reps)?",
+    "options": {
+      "A": "109",
+      "B": "360",
+      "C": "469/470"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 5,
+    "text": "What is the \"cheapest and easiest way to make a living\"?",
+    "options": {
+      "A": "Getting a corporate job",
+      "B": "To make a difference",
+      "C": "Investing in real estate"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 6,
+    "text": "What was the first prize for the Interswitch Spak competition mentioned?",
+    "options": {
+      "A": "1 Million",
+      "B": "5 Million",
+      "C": "15 Million"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "text": "What is the new star prize target for the KIN Nation Builders call?",
+    "options": {
+      "A": "100,000",
+      "B": "1.19 Million",
+      "C": "1 Million"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "text": "What year did Interswitch Spak start?",
+    "options": {
+      "A": "2016",
+      "B": "2018",
+      "C": "2020"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "text": "The KIN scholarship grew from 11,000 to what specific amount?",
+    "options": {
+      "A": "100,000",
+      "B": "1.19 Million",
+      "C": "5 Million"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "text": "What is the target age group for god-children at KIN?",
+    "options": {
+      "A": "0 to 5 years",
+      "B": "7 to 17 years (+/- 2)",
+      "C": "18 to 30 years"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 11,
+    "text": "According to Hebrew culture, at what age is a male considered an adult?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "18"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "text": "According to Hebrew culture, at what age is a female considered an adult?",
+    "options": {
+      "A": "12",
+      "B": "13",
+      "C": "18"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "text": "What time does the KIND devotional start?",
+    "options": {
+      "A": "7:45 PM",
+      "B": "7:59 PM",
+      "C": "8:20 PM"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "text": "At what time does the KIND devotional typically end on weekdays?",
+    "options": {
+      "A": "8:30 PM",
+      "B": "9:15 PM",
+      "C": "10:00 PM"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "text": "At what time does the KIND devotional end on weekends and holidays?",
+    "options": {
+      "A": "9:15 PM",
+      "B": "9:30 PM",
+      "C": "12:00 AM"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "text": "How long does the Pre-KIND service last?",
+    "options": {
+      "A": "5 minutes",
+      "B": "15 minutes",
+      "C": "30 minutes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "text": "Which version of the Bible is the required standard for KIN?",
+    "options": {
+      "A": "NIV",
+      "B": "ESV",
+      "C": "KJV"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "text": "What does \"PITH\" stand for?",
+    "options": {
+      "A": "Purpose in the Heart",
+      "B": "Praying in the Holy Spirit",
+      "C": "Power in the Home"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "text": "How many verses are in the Psalm 119 challenge?",
+    "options": {
+      "A": "119",
+      "B": "150",
+      "C": "176"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 20,
+    "text": "How many days does the Daniel Fast last?",
+    "options": {
+      "A": "3 days",
+      "B": "7 days",
+      "C": "10 days"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "text": "What is the specific focus of the Nehemiah Fast?",
+    "options": {
+      "A": "Personal breakthrough",
+      "B": "The Nation",
+      "C": "Health and healing"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 22,
+    "text": "What are the four requirements to serve as a Covenant Servant?",
+    "options": {
+      "A": "Faith, Hope, Love, Joy",
+      "B": "Time, Energy, Resources, Money",
+      "C": "Prayer, Fasting, Word, Giving"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "text": "According to Job 1:10, where does God put a \"hedge\"?",
+    "options": {
+      "A": "Only around the person",
+      "B": "Around the person, their house, and all they have",
+      "C": "Only around the church"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "text": "How many hours are required to achieve \"mastery\" in a skill?",
+    "options": {
+      "A": "1,000",
+      "B": "5,000",
+      "C": "10,000"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "text": "What is the focus of Level 500 in God University?",
+    "options": {
+      "A": "Bible Basics",
+      "B": "Hearing God",
+      "C": "Stars & Signs (Global Impact)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "text": "What is the \"Always-On\" mystery item a god-child must carry?",
+    "options": {
+      "A": "A smartphone",
+      "B": "A physical Bible",
+      "C": "A notebook"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "text": "Which two subjects are described as the only necessary ones for the new age?",
+    "options": {
+      "A": "History and Art",
+      "B": "Mathematics and English",
+      "C": "Science and Geography"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "text": "Using AI, a task that took 6 months can now be finished in:",
+    "options": {
+      "A": "3 months",
+      "B": "1 month",
+      "C": "1 week"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "text": "What percentage of staff did Jack Dorsey lay off at Block?",
+    "options": {
+      "A": "10%",
+      "B": "40%",
+      "C": "70%"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "text": "How long is the lifespan of the solar batteries used at KIN?",
+    "options": {
+      "A": "2 years",
+      "B": "5 years",
+      "C": "10 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 31,
+    "text": "If you have 10 hours to cut a tree, how many should you spend sharpening the saw?",
+    "options": {
+      "A": "1 hour",
+      "B": "5 hours",
+      "C": "9 hours"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 32,
+    "text": "What are the four pillars of Influence according to the training?",
+    "options": {
+      "A": "Money, Fame, Power, Beauty",
+      "B": "Esteem, Emotional Intelligence, Expertise, Excellence",
+      "C": "Faith, Prayer, Word, Service"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 33,
+    "text": "On what date is the next major Nehemiah Fast/Election prayer scheduled?",
+    "options": {
+      "A": "January 1, 2026",
+      "B": "July 16, 2027",
+      "C": "December 25, 2025"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "text": "How many God Hubs are targeted for building?",
+    "options": {
+      "A": "36",
+      "B": "470",
+      "C": "774"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "text": "How many God Cities are targeted for building?",
+    "options": {
+      "A": "12",
+      "B": "36",
+      "C": "774"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 36,
+    "text": "Which scripture says \"I have said, Ye are gods\"?",
+    "options": {
+      "A": "Genesis 1:1",
+      "B": "Psalm 82:6",
+      "C": "John 3:16"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 37,
+    "text": "How many letters are in the Hebrew alphabet?",
+    "options": {
+      "A": "22",
+      "B": "24",
+      "C": "26"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 38,
+    "text": "What is the very first segment of a KIND devotional session?",
+    "options": {
+      "A": "Worship",
+      "B": "Affirmation/Declaration",
+      "C": "Bible Reading"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 39,
+    "text": "On which day is the primary \"Godmatics\" math class held?",
+    "options": {
+      "A": "Wednesday",
+      "B": "Friday",
+      "C": "Monday"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 40,
+    "text": "What year did KIN formally start giving scholarships?",
+    "options": {
+      "A": "2012",
+      "B": "2017",
+      "C": "2022"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "text": "How old is \"GDX\" (the child mentioned in affirmations)?",
+    "options": {
+      "A": "2 years old",
+      "B": "5 years old",
+      "C": "10 years old"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 42,
+    "text": "What is the duration of the God-University training pathway?",
+    "options": {
+      "A": "1 year",
+      "B": "3 to 5 years",
+      "C": "7 to 10 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 43,
+    "text": "What is the minimum length of a Covenant Servant's commitment?",
+    "options": {
+      "A": "1 decade",
+      "B": "4 decades",
+      "C": "7 decades"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "text": "What is the primary role of a \"God Hub\"?",
+    "options": {
+      "A": "A residential building",
+      "B": "Administrative hub/spoke",
+      "C": "A sports complex"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "text": "What is the \"God City\"?",
+    "options": {
+      "A": "A digital platform",
+      "B": "The central physical structure",
+      "C": "A library"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 46,
+    "text": "In KIN roles, what does a \"Mentor\" provide?",
+    "options": {
+      "A": "Results",
+      "B": "Steps",
+      "C": "Drills"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 47,
+    "text": "In KIN roles, what does a \"Coach\" provide?",
+    "options": {
+      "A": "Results",
+      "B": "Steps",
+      "C": "Drills"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 48,
+    "text": "In KIN roles, what does an \"Inspirer\" provide?",
+    "options": {
+      "A": "Results",
+      "B": "Steps",
+      "C": "Drills"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "text": "What is the focus of Level 100 in God-University?",
+    "options": {
+      "A": "Advanced AI",
+      "B": "Bible Basics/Selection",
+      "C": "Global Politics"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "text": "What is the output of Level 200/300 in the God-University?",
+    "options": {
+      "A": "A degree",
+      "B": "Hearing the voice of God",
+      "C": "A high-paying job"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 51,
+    "text": "How many biographies must a Level 300 god-child read?",
+    "options": {
+      "A": "10",
+      "B": "50",
+      "C": "100"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 52,
+    "text": "What is the focus of Level 400 in the God-University?",
+    "options": {
+      "A": "Personal growth",
+      "B": "Service/Nation building",
+      "C": "Bible basics"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 53,
+    "text": "How many days a year does KIND hold?",
+    "options": {
+      "A": "52 days",
+      "B": "300 days",
+      "C": "365 days"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "text": "By what time must the first pre-recorded listening go live?",
+    "options": {
+      "A": "8:00 PM",
+      "B": "8:20 PM",
+      "C": "9:00 PM"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 55,
+    "text": "How many minutes are allotted for the KIND Affirmation?",
+    "options": {
+      "A": "3 minutes",
+      "B": "5 minutes",
+      "C": "10 minutes"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 56,
+    "text": "How many minutes are allotted for KIND Worship?",
+    "options": {
+      "A": "4 minutes",
+      "B": "8 minutes",
+      "C": "12 minutes"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "text": "How many minutes are allotted for the KIND Recap?",
+    "options": {
+      "A": "2 minutes",
+      "B": "5 minutes",
+      "C": "10 minutes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "text": "How many minutes are allotted for the KIND Bible Reading?",
+    "options": {
+      "A": "3 minutes",
+      "B": "6 minutes",
+      "C": "9 minutes"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 59,
+    "text": "Who performs the \"Round Up\" at the end of KIND?",
+    "options": {
+      "A": "A god-child",
+      "B": "A Covenant Servant",
+      "C": "A parent"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "text": "What is the purpose of the 2nd listening in KIND?",
+    "options": {
+      "A": "Just for fun",
+      "B": "To take notes",
+      "C": "To sleep"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 61,
+    "text": "What is the philosophy regarding a salary?",
+    "options": {
+      "A": "It is the goal of life",
+      "B": "Nobody sustains life by salary alone",
+      "C": "It should be saved in a bank"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 62,
+    "text": "Where is the greatest \"compound interest\" found?",
+    "options": {
+      "A": "In a fixed deposit",
+      "B": "In the things of God",
+      "C": "In real estate"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 63,
+    "text": "How long is the lifespan of the solar panels used at KIN?",
+    "options": {
+      "A": "5 years",
+      "B": "10 years",
+      "C": "20 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 64,
+    "text": "Who is the founder of the company \"Block\" mentioned in the AI talk?",
+    "options": {
+      "A": "Bill Gates",
+      "B": "Jack Dorsey",
+      "C": "Elon Musk"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 65,
+    "text": "Influence is defined as the ability to affect:",
+    "options": {
+      "A": "Money, Fame, Power",
+      "B": "Decisions, Directions, Destiny",
+      "C": "Friends, Family, Neighbors"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 66,
+    "text": "What is \"Equanimity\"?",
+    "options": {
+      "A": "Financial balance",
+      "B": "Emotional discipline",
+      "C": "A math formula"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 67,
+    "text": "What does the \"God\" prefix signify for a child?",
+    "options": {
+      "A": "A nickname",
+      "B": "DNA in God and earthly purpose",
+      "C": "Superiority"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 68,
+    "text": "How many men did Abraham train in his house?",
+    "options": {
+      "A": "12",
+      "B": "120",
+      "C": "318"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 69,
+    "text": "Who was the servant/trainee of Moses?",
+    "options": {
+      "A": "Samuel",
+      "B": "Joshua",
+      "C": "David"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 70,
+    "text": "Who was the trainee of Eli?",
+    "options": {
+      "A": "Saul",
+      "B": "David",
+      "C": "Samuel"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 71,
+    "text": "Who were the trainees of Samuel?",
+    "options": {
+      "A": "Saul and David",
+      "B": "Joshua and Caleb",
+      "C": "Peter and Paul"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 72,
+    "text": "What did God make Moses unto Pharaoh?",
+    "options": {
+      "A": "A servant",
+      "B": "A god",
+      "C": "A shepherd"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "text": "How long did Daniel serve across four kings?",
+    "options": {
+      "A": "10 years",
+      "B": "40 years",
+      "C": "70 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 74,
+    "text": "What was the first stage of the KIN vision?",
+    "options": {
+      "A": "Raising gods",
+      "B": "Live an Inspiration",
+      "C": "Building Nations"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 75,
+    "text": "What was the second stage of the KIN vision?",
+    "options": {
+      "A": "Raising children as gods",
+      "B": "Building cities",
+      "C": "Community service"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 76,
+    "text": "What is the current third stage of the KIN vision?",
+    "options": {
+      "A": "Educating the world",
+      "B": "Raising gods, building nations",
+      "C": "Global literacy"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 77,
+    "text": "What is the breakdown of the 469/470 rulers in Nigeria?",
+    "options": {
+      "A": "100 Senators, 369 House",
+      "B": "109 Senators, 360 House",
+      "C": "200 Senators, 269 House"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 78,
+    "text": "What do people call Tony when they are in their 30s?",
+    "options": {
+      "A": "Uncle Tony",
+      "B": "Mr. Tony",
+      "C": "Tony / How are you"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 79,
+    "text": "What do people call Tony when they are in their 20s?",
+    "options": {
+      "A": "Uncle Tony",
+      "B": "Mr. Tony",
+      "C": "Tony / How are you"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 80,
+    "text": "What do people call Tony when they are teenagers?",
+    "options": {
+      "A": "Uncle Tony",
+      "B": "Mr. Tony",
+      "C": "Tony / How are you"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 81,
+    "text": "From which university did Princess matriculate?",
+    "options": {
+      "A": "University of Lagos",
+      "B": "Covenant University",
+      "C": "University of Ibadan"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 82,
+    "text": "What is the Hebrew term for \"Teenager\"?",
+    "options": {
+      "A": "Bar-Mitzvah",
+      "B": "Bat-Mitzvah",
+      "C": "None (it doesn't exist)"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 83,
+    "text": "At what age range do god-children graduate/move into the world?",
+    "options": {
+      "A": "10-12",
+      "B": "17-19",
+      "C": "25-30"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 84,
+    "text": "How many weeks does the God-University program run per year?",
+    "options": {
+      "A": "12 weeks",
+      "B": "44 weeks",
+      "C": "52 weeks"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 85,
+    "text": "In which month does the God-University year begin?",
+    "options": {
+      "A": "January",
+      "B": "February",
+      "C": "March"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 86,
+    "text": "In which month does the God-University year end?",
+    "options": {
+      "A": "October",
+      "B": "November",
+      "C": "December"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 87,
+    "text": "How often must the prayer altar be active to keep the fire burning?",
+    "options": {
+      "A": "Once a day",
+      "B": "Every 3 hours",
+      "C": "Once a week"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 88,
+    "text": "How many verses are in the \"Bible A to Z\" program?",
+    "options": {
+      "A": "10",
+      "B": "26",
+      "C": "50"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 89,
+    "text": "What is the prayer hour milestone mentioned?",
+    "options": {
+      "A": "100 hours",
+      "B": "500 hours",
+      "C": "1,000 hours"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 90,
+    "text": "Which scripture is referred to as the \"wealth scripture\"?",
+    "options": {
+      "A": "Psalm 23:1",
+      "B": "Deuteronomy 8:18",
+      "C": "Matthew 6:33"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 91,
+    "text": "Mathematics is described as the:",
+    "options": {
+      "A": "Language of the universe",
+      "B": "Hardest subject",
+      "C": "Optional subject"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "text": "AI allows one person to do the work of:",
+    "options": {
+      "A": "2 people",
+      "B": "5 people",
+      "C": "10 people"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 93,
+    "text": "What is buried in the four corners of a God Hub foundation?",
+    "options": {
+      "A": "Money",
+      "B": "Bibles",
+      "C": "Stones"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 94,
+    "text": "Who was the first person to receive a KIN scholarship?",
+    "options": {
+      "A": "David",
+      "B": "Princess",
+      "C": "GDX"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 95,
+    "text": "How many verses of Psalm 119 did the coach learn initially?",
+    "options": {
+      "A": "44",
+      "B": "88",
+      "C": "176"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "text": "What is the purpose of the \"Godmatics\" program?",
+    "options": {
+      "A": "To teach theology",
+      "B": "To combat mathematics degradation",
+      "C": "To learn Greek"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "text": "Deuteronomy 8:18 says God gives the power to get:",
+    "options": {
+      "A": "Wisdom",
+      "B": "Health",
+      "C": "Wealth"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 98,
+    "text": "How long does it take to finish the Bible Challenge?",
+    "options": {
+      "A": "6 months",
+      "B": "1 year",
+      "C": "2 to 3 years"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 99,
+    "text": "How many kings did Abraham defeat?",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 100,
+    "text": "What are the three KIN Pillars?",
+    "options": {
+      "A": "Faith, Hope, Charity",
+      "B": "Spirit, Skills, Service",
+      "C": "Prayer, Fasting, Word"
+    },
+    "answer": "B"
+  }
+]
