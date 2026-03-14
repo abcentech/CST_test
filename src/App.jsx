@@ -7,12 +7,31 @@ function App() {
   const [userInfo, setUserInfo] = useState({ name: '', dob: '', yearJoined: '' });
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(1000);
+  const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  useEffect(() => {
+    let timer;
+    if (step === 'test' && timeLeft > 0) {
+      timer = setInterval(() => {
+        setTimeLeft(prev => prev - 1);
+      }, 1000);
+    } else if (timeLeft === 0 && step === 'test') {
+      handleSubmit(true);
+    }
+    return () => clearInterval(timer);
+  }, [step, timeLeft]);
 
   const handleStart = (e) => {
     e.preventDefault();
     if (userInfo.name && userInfo.dob && userInfo.yearJoined) {
       window.scrollTo(0, 0);
       setStep('test');
+      setTimeLeft(1000);
     }
   };
 
@@ -28,8 +47,8 @@ function App() {
     return s;
   };
 
-  const handleSubmit = () => {
-    if (Object.keys(answers).length < questionsData.length) {
+  const handleSubmit = (isAuto = false) => {
+    if (!isAuto && Object.keys(answers).length < questionsData.length) {
       const confirmSubmit = window.confirm(`You have only answered ${Object.keys(answers).length} out of ${questionsData.length} questions. Are you sure you want to submit?`);
       if (!confirmSubmit) return;
     }
@@ -38,10 +57,25 @@ function App() {
     setStep('result');
   };
 
+  const formatTime = (seconds) => {
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+  };
+
   if (step === 'form') {
     return (
       <div className="container form-container glass">
         <div className="brand-header">
+          <div className="theme-toggle-container">
+            <button 
+              className="theme-toggle" 
+              onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+              title="Toggle Theme"
+            >
+              {theme === 'light' ? '🌙' : '☀️'}
+            </button>
+          </div>
           <h1>KidsInspiring Nation</h1>
           <p className="subtitle">100-Question Assessment</p>
         </div>
@@ -94,8 +128,13 @@ function App() {
             <h2>KIN Training Assessment</h2>
             <p>Candidate: {userInfo.name}</p>
           </div>
-          <div className="progress">
-            <span>{Object.keys(answers).length} / {questionsData.length} Answered</span>
+          <div className="header-stats">
+            <div className={`timer ${timeLeft < 60 ? 'urgent' : ''}`}>
+              <span>⏱ {formatTime(timeLeft)}</span>
+            </div>
+            <div className="progress">
+              <span>{Object.keys(answers).length} / {questionsData.length} Answered</span>
+            </div>
           </div>
         </header>
 
